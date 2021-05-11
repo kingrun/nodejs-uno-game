@@ -2,7 +2,7 @@ version: '2'
 services:
   web:
     build: .
-    command: node server.js
+    command: node app.js
     volumes:
       - .:/usr/app/
     ports:
